@@ -1,0 +1,40 @@
+# Ignore environment variables and API keys
+.env
+*.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Virtual environment folders
+venv/
+.env/
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, if using VS Code)
+.vscode/
+
+# Ignore large files (e.g., datasets, models)
+*.h5
+*.pkl
+*.csv
+*.sqlite
+
+# Ignore dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore node_modules (if using frontend tools)
+node_modules/
